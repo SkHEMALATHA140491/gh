@@ -35,19 +35,7 @@ char c1=pin.charAt(5);
 char c2=pin.charAt(0);
 output1=c+s1+c1+c2;
 System.out.println(output1);	
-/*for(int i=0; i<=output1.length()-1; i++){
-	char c3=output1.charAt(i);
-	if(Character.isUpperCase(c3)){
-		System.out.print(Character.toLowerCase(c3));
-	}
-	else if(Character.isLowerCase(c3)){
-		System.out.print(Character.toUpperCase(c3));
-	}
-	else
-	{
-		System.out.print(c3);
-		}
-}*/
+
 		}
 		}
 	
